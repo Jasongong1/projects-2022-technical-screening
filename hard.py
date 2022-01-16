@@ -34,6 +34,13 @@ def is_unlocked(courses_list, target_course):
     """
     
     # TODO: COMPLETE THIS FUNCTION!!!
+
+    # Approach would be to parse courses_list first and initalize some relevant variables
+    # e.g. num_uoc, num_uoc_comp3
+    # Parsing conditions.json is the hard part - if it were my own project, I would not do
+    # so programmatically - it's simply faster for human to parse human language prereqs to logic
+    # manually create dicts/class for each target course with those same relevant variables
+    # then check if conditions satisfied from data inferred from courses_list
     
     return True
 
